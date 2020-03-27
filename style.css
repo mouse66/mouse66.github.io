@@ -1,0 +1,306 @@
+html,
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* https://colordrop.io/color/17932 */
+header {
+    background-color: #D25565;
+    height: 500px;
+    width: 100%;
+}
+
+.head {
+    display: block;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 105px;
+}
+
+.head b {
+    position: absolute;
+    padding: 30px;
+    font-size: 38px;
+    width: auto;
+}
+
+.head ul {
+    padding: 30px;
+    float: right;
+    margin-right: 1%;
+}
+
+.head li {
+    float: right;
+    margin-left: 35px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.head a {
+    color: white;
+    text-decoration: none;
+}
+
+.head a:hover {
+    color: #FFFDC0;
+}
+
+.head-about {
+    display: table;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+
+
+.about-head p {
+    color: white;
+    margin-top: 0;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.about-head {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.about-head button {
+    border: none;
+    background-color: #2E94B9;
+    outline: none;
+    width: 260px;
+    height: 50px;
+    color: #eeeeee;
+    border-radius: 15px;    
+    font-size: 15px;
+    transition: background 0.3s ease;
+    box-shadow: 2px 2px 2px #2983a3;
+}
+
+.about-head button:hover {
+    background-color: #2983a3;
+}
+
+.about-section {
+    height: auto;
+    background-color: #dea96d;
+}
+
+.about-section h1 {
+    text-align: center;
+    padding-top: 45px;
+    color: white;
+    font-size: 35px;
+    margin: 0;
+}
+
+.about-section p {
+    color: white;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.services {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.item:nth-child(1) {
+    margin-left: 0;
+}
+
+.item {
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+    max-width: inherit;
+}
+
+.item > h3 {
+    position: inherit;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.item p {
+    text-align: inherit;
+    font-size: 16px;
+    font-weight: 100;
+    width: 200px;
+}
+
+.item img {
+    display: block;
+    position: inherit;
+}
+
+.team {
+    height: auto;
+    background-color: #dfdfdf;
+}
+
+.team h1 {
+    text-align: center;
+    padding-top: 45px;
+    color: #212121;
+    font-size: 35px;
+    margin: 0;
+}
+
+.team > p {
+    color: #212121;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.person {
+    border-radius: 50%;
+}
+
+.item-team {
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+    max-width: inherit;
+}
+
+.item-team:nth-child(1) {
+    margin-left: 0;
+}
+
+.item-team > h3 {
+    position: inherit;
+    font-size: 24px;
+    font-weight: 600;
+    color: #212121;
+    padding-bottom: 0;
+}
+
+.item-team p {
+    text-align: inherit;
+    font-size: 16px;
+    font-weight: 100;
+    width: 200px;
+}
+
+.team-div {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.item-team h4 {
+    margin-top: -10px;
+    font-size: 16px;
+    color: #D25565;
+}
+
+.skills {
+    height: 600px;
+    background-color: #2E94B9;
+}
+
+.skills h1 {
+    text-align: center;
+    padding-top: 45px;
+    color: white;
+    font-size: 35px;
+    margin: 0;
+}
+
+.icons {
+    display: inline-block;
+    text-align: center;
+    max-width: auto;
+}
+
+.icons li {
+    display: inline;
+    text-align: center;
+    margin-right: 10px;
+    transition: background 1s ease;
+}
+
+.icons li:hover {
+    opacity: 0.8;
+}
+
+.icons ul {
+    text-align: center;
+}
+
+.icons li:nth-child(1) {
+    margin-left: -30px;
+}
+
+.skills > p {
+    color: white;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.skill-work {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.round {
+    width: 160px; height: 160px;
+    text-align: center;
+    border: 24px solid #001871;
+    border-radius: 100px;
+}
+
+.qualify {
+    display: inline-block;
+    text-align: center;
+    margin-left: 140px;
+    max-width: inherit;
+}
+
+
+.portfolio {
+    
+}
+
+.portfolio {
+    height: 600px;
+    background-color: #D25565;
+}
+
+.portfolio h1 {
+    text-align: center;
+    padding-top: 45px;
+    color: white;
+    font-size: 35px;
+    margin: 0;
+}
+
+.portfolio > p {
+    color: white;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
